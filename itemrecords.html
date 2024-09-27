@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recite Uploading</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="itemrecords.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+        <a class="navbar-brand" href="#">
+          <img src="p4.png" alt="Logo" class="logo-img" style="width:170px;"> 
+        </a>
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link active" href="#">Recite Uploading</a>
+        </div>
+      </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <i class="fas fa-home"></i> Items
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-plus-circle"></i> Add Items
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-history"></i> History
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-edit"></i> Edit
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-trash-alt"></i> Remove
+              </a>
+            </li>
+            <li class="nav-item mt-auto">
+              <a class="nav-link" href="#">
+                <i class="fas fa-sign-out-alt"></i> Log Out
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        <div class="upload-container text-center">
+          <h3>Upload Recite</h3>
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="upload-box-container mb-3 p-3">
+                <div class="upload-box mb-3">
+                  <i class="fas fa-cloud-upload-alt fa-3x"></i>
+                  <p>Choose Image</p>
+                  <input type="file" class="form-control-file">
+                </div>
+                <div class="upload-box">
+                  <i class="fas fa-camera fa-3x"></i>
+                  <p>Take Image</p>
+                  <input type="file" class="form-control-file" capture="camera">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-orange">Add Product</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
